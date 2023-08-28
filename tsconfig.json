@@ -1,0 +1,34 @@
+// prettier-ignore
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
+  "compilerOptions": {
+    "ignoreDeprecations": "5.0",
+    "module": "esnext",
+    "target": "es6",
+    "lib": ["es6", "scripthost", "dom"],
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "react-native",
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strictPropertyInitialization": false,
+    "types": [
+      "node"
+    ],
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "reactSlimer", "reactSlimerWithExpo", "Example", "ExampleWithExpo", "dist"]
+}
